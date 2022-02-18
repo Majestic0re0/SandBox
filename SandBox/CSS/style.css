@@ -1,0 +1,58 @@
+/*Permanent */
+img {
+  width: 100%;
+  max-width: 400px;
+}
+
+body {
+  background-image: linear-gradient(yellow, pink);
+}
+
+/*Permanent*/
+
+h2:hover {
+  color: red;
+}
+
+.subtitle {
+  color: blue;
+}
+
+#services {
+  color: green;
+}
+
+/* li:only-child {
+  color: steelblue;
+} */
+
+td:only-child {
+  color: purple;
+}
+
+/* #google-link {
+  color: blue;
+}
+
+#google-link:visited {
+  color: red;
+} */
+
+/* Sibling selctor */
+h2 ~ a {
+  color: red;
+}
+
+/* General sibling combinator/selector */
+textarea ~ button {
+  color: purple;
+}
+
+/* Child selector */
+ul > li {
+  color: blue;
+}
+
+ul li {
+  color: green;
+}
